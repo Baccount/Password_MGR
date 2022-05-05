@@ -2,7 +2,8 @@
 from password_functions import *
 
 def main():
-    clear_screen()
+    # show splash screen
+    show_splash()
     while True:
         print('\n\n1: Add password\n2: Display Passwords\n3: Delete Password\n4: Find passwords by name\n5: Test with random password\n6: DELETE DATABASE\n7: Delete duplicate passwords\n8: Add Note\n0: Exit\n')
 

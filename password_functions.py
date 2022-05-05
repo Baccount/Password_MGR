@@ -3,6 +3,37 @@ import time
 import sqlite3
 import random
 import string as s
+from pyfiglet import Figlet
+from random import choice
+
+
+
+def show_splash():
+    # random font
+    clear_screen()
+    title = 'Pasword MGR'
+    figlet = Figlet()
+    fonts = figlet.getFonts()
+    f = Figlet(font=choice(fonts))
+    print(f.renderText(title))
+    sleep(2)
+    clear_screen()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def delete_duplicates():
     clear_screen()
