@@ -14,7 +14,7 @@ def show_splash():
     title = 'Pasword MGR'
     figlet = Figlet()
     fonts = figlet.getFonts()
-    f = Figlet(font=choice(fonts))
+    f = Figlet(font='3-d')
     print(f.renderText(title))
     sleep(2)
     clear_screen()
