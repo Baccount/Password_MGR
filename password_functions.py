@@ -9,7 +9,9 @@ from random import choice
 
 
 def show_splash():
-    # random font
+    '''
+    Display splash screen
+    '''
     clear_screen()
     title = 'Pasword MGR'
     figlet = Figlet()
@@ -18,21 +20,6 @@ def show_splash():
     print(f.renderText(title))
     sleep(2)
     clear_screen()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 def delete_duplicates():
